@@ -267,6 +267,7 @@ loadbalancer_apiserver:
   port: 6443
 kube_vip_interface: ens4
 kube_vip_services_enabled: false
+kube_vip_bgp_enabled: false 
 # kube_vip_dns_mode: first
 # kube_vip_cp_detect: false
 # kube_vip_leasename: plndr-cp-lock
