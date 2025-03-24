@@ -380,3 +380,8 @@ kube_apiserver_cert_extra_sans:
   - "IP:34.19.76.251"
   - "IP:34.105.34.11" 
   - "IP:35.247.26.91"
+  - "IP:10.240.0.14"
+apiserver_loadbalancer_domain_name: "lb-apiserver.kubernetes.local"
+loadbalancer_apiserver:
+  address: "10.240.0.14"
+  port: 6443
